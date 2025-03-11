@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luan Pereira</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <h1>Palmeiras não tem mundial</h1>
+    <h1>Login</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data" required><br>
+
+        <label for="fname">Usuario:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Senha:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <h1>Informe seus dados</h1>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco"><br>
+
+        <label for="numero">Numero:</label><br>
+        <input type="text" id="numero" name="numero"><br>
+
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" id="complemento" name="complemento"><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade"><br>
+
+        <label for="estado">Estado:</label><br>
+        <input type="text" id="estado" name="estado"><br>
+
+        <label for="cep">CEP:</label><br>
+        <input type="text" id="cep" name="cep"><br>
+
+        <h1>Informe seu Gênero</h1>
+        <input type="radio" id="homem" name="genero" value="Homem" checked>
+        <label for="homem">Homem</label><br>
+        
+        <input type="radio" id="mulher" name="genero" value="Mulher">
+        <label for="mulher">Mulher</label><br>
+        
+        <input type="radio" id="nao_binario" name="genero" value="Nao binario">
+        <label for="nao_binario">Não Binário</label><br>
+
+        <h1>Curso</h1>
+        <input type="checkbox" id="ads" name="curso" value="ADS">
+        <label for="ads">ADS</label><br>
+
+        <input type="checkbox" id="ti" name="curso" value="TI">
+        <label for="ti">TI</label><br>
+
+        <input type="checkbox" id="banco_de_dados" name="curso" value="Banco de dados">
+        <label for="banco_de_dados">Banco de Dados</label><br>
+
+        <input type="checkbox" id="jogos" name="curso" value="Jogos">
+        <label for="jogos">Jogos</label><br>
+
+        <h1>Período</h1>
+        <input type="radio" id="presencial" name="periodo" value="Presencial" checked>
+        <label for="presencial">Presencial</label><br>
+
+        <input type="radio" id="ead" name="periodo" value="EAD">
+        <label for="ead">EAD</label><br>
+
+        <input type="radio" id="semi_presencial" name="periodo" value="Semi-Presencial">
+        <label for="semi_presencial">Semi-Presencial</label><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
